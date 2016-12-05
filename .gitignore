@@ -15,3 +15,9 @@ Pictures/
 Videos/
 _viminfo
 Saved Games/
+.eclipse/
+.kivy/
+.oracle*/
+Tracing/
+.p2/
+.bash_history
