@@ -14,8 +14,8 @@ set tabstop=4
 nnoremap <F2> :w<CR>
 inoremap <F2> <ESC>:w<CR><INS>
 
-nnoremap <F12> :w<CR>:!mingw32-make<CR>
-inoremap <F12> <ESC>:w<CR>:!mingw32-make<CR>
+nnoremap <F12> :w<CR>:!mingw32-make OS=win32 TAIL=-n17<CR>
+inoremap <F12> <ESC>:w<CR>:!mingw32-make OS=win32 TAIL=-n17<CR>
 
 noremap <c-t> :tabf<space>
 noremap <c-w> ZZ
